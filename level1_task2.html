@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: darkblue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: black;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #2b2b7f;
+    }
+
+    .columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+      background-color: #eaeaea;
+    }
+
+    .column {
+      background-color: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background-color: #2b2b7f;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .columns {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Landing Page</h1>
+    <p>Learn HTML and CSS</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Start Your Web Development Journey</h1>
+    <p>Build real projects and practice your skills!</p>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <h2>HTML Basics</h2>
+      <p>Understand tags, elements, and structure of web pages.</p>
+    </div>
+    <div class="column">
+      <h2>CSS Styling</h2>
+      <p>Add colors, layout, and design to make pages look good.</p>
+    </div>
+    <div class="column">
+      <h2>Project Practice</h2>
+      <p>Apply your knowledge by creating landing pages like this!</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
